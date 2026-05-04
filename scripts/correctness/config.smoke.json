@@ -1,0 +1,21 @@
+{
+  "_comment": "Smoke template. Replace placeholder paths with your local setup.",
+  "reference_3dgs_dir": "/path/to/gaussian-splatting",
+  "polysplat_dir": "/path/to/PolySplat",
+
+  "scenes": [
+    "/path/to/3dgs_models/truck"
+  ],
+  "iteration": 30000,
+
+  "cameras": "first",
+
+  "cuda_visible_devices": "0",
+
+  "polysplat_variant": "preranges_smem_persistent_lite_e2e",
+
+  "max_num_rendered": 134217728,
+  "max_num_tiles": 1048576,
+
+  "output_dir": "./bench_results"
+}

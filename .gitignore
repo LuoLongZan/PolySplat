@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+*.so
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local results / scratch dirs
+bench_results/
+.cache/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
