@@ -5,6 +5,8 @@
 > Splatting*. Author identities and any organization-affiliating
 > artifacts have been removed for double-blind review.**
 
+Project website: [https://polysplat.github.io/](https://polysplat.github.io/)
+
 PolySplat is a CUDA forward-pass rasterizer for 3D Gaussian Splatting (3DGS).
 It is designed to deliver robust acceleration across the entire workload
 space — extreme Gaussian counts (up to 56.5&nbsp;M), high resolutions (up
